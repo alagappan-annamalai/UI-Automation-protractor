@@ -6,13 +6,28 @@ var totalDateString = currentDate.getDate()+'-'+ (currentDate.getMonth() + 1)+'-
 let reportDirectory = './reportFolderScreenshotReporter'+totalDateString;
 
 exports.config = {
+  //  seleniumAddress:"http://localhost:4444/wd/hub",
+ //   seleniumArgs: ["-Dwebdriver.ie.driver=C:\\Users\\alagappan.annamalai\\Downloads\\IEDriverServer_x64_3.9.\\IEDriverServer.exe"],
+    //seleniumArgs: ['-Dwebdriver.edge.driver=C:\\Users\\alagappan.annamalai\\Downloads\\edgedriver_win64\\msedgedriver.exe'],
+
 
 	directConnect:true,
     chromeDriver: './chromedriver.exe',
-
+   //firefoxDriver: './geckodriver.exe',
+   //With Shadow DOM, Firefox browser won't identify the elements which are in Shadow DOM.
+   // So the test cases built with shadow DOM identiy elemnets will fail.
 	capabilities:{
     	browserName: 'chrome'
+    //  browserName: 'firefox',
+    //  marionette: true
+    // browserName: 'internet explorer',
+    //     platform: 'ANY',
+    //     version: '11'
 
+        // 'browserName': 'MicrosoftEdge',
+        // 'maxInstances': 1,
+        // 'platformName': 'windows',
+        // 'nativeEvents': false,
 	},
 	framework:'jasmine',
 	specs:[
