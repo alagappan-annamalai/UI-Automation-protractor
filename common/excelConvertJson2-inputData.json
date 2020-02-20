@@ -1,0 +1,603 @@
+{
+	"refineSearch": [
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "TextBox",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Indicator Dissolving",
+			"Display Type": "textbox",
+			"Value": "DissolvingAtGe",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "TextArea",
+			"Entity Type": "SKU",
+			"Attribute": "CH-IIM Projectnumber",
+			"Display Type": "textarea",
+			"Value": "FirstYearProject",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "TextBox Collection",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Storage Instruction",
+			"Display Type": "collectiontextbox",
+			"Value": "Light||Shinny",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "Integer",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Amaximum Order Quantity",
+			"Display Type": "integertextbox",
+			"Value": 145,
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "Decimal",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Net Content Custom",
+			"Display Type": "decimaltextbox",
+			"Value": 765.76,
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "ReferenceList",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Consumer Need",
+			"Display Type": "simplereference",
+			"Value": "2000deDE",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001NA",
+			"Description": "Reference Collection",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Critical Product",
+			"Display Type": "collectionreference",
+			"Value": "1999deDE||2000deDE",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "Boolean",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Latex",
+			"Display Type": "boolean",
+			"Reference Toggle": "FALSE"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "RichText",
+			"Entity Type": "SKU",
+			"Attribute": "CH-IIM Projectnumberstatus",
+			"Display Type": "richtext",
+			"Value": "Available",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "TextBox",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Indicator Dissolving",
+			"Display Type": "textbox",
+			"Value": "DissolvingAtAu",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "TextArea",
+			"Entity Type": "SKU",
+			"Attribute": "CH-IIM Projectnumber",
+			"Display Type": "textarea",
+			"Value": "FinalYearProject",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "TextBox Collection",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Storage Instruction",
+			"Display Type": "collectiontextbox",
+			"Value": "Dark||Blue",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "Integer",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Amaximum Order Quantity",
+			"Display Type": "integertextbox",
+			"Value": 145,
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "Decimal",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Net Content Custom",
+			"Display Type": "decimaltextbox",
+			"Value": 765.76,
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "ReferenceList",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Consumer Need",
+			"Display Type": "simplereference",
+			"Value": 2001,
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002NA",
+			"Description": "Reference Collection",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Critical Product",
+			"Display Type": "collectionreference",
+			"Value": "1999||2000",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "Boolean",
+			"Entity Type": "SKU",
+			"Attribute": "CH-Latex",
+			"Display Type": "boolean",
+			"Value": "FALSE",
+			"Reference Toggle": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "RichText",
+			"Entity Type": "SKU",
+			"Attribute": "CH-IIM Projectnumberstatus",
+			"Display Type": "richtext",
+			"Reference Toggle": "FALSE"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate003",
+			"Description": "Self Check",
+			"Entity Type": "SKU",
+			"Attribute": "MDM ID",
+			"Display Type": "textbox",
+			"Value": "MobilePhones01",
+			"Reference Toggle": "na"
+		}
+	],
+	"entityValidation": [
+		{
+			"SenarioID": "RefineSearch_EntityValidation001",
+			"Description": "Validate sku entity present in grid",
+			"Entity Type": "sku",
+			"EntityName": "Footwear001"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "Product",
+			"EntityName": "Footwear001"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "sku",
+			"EntityName": "Duracell Ultra battery_001"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "Sku",
+			"EntityName": "SamsungMobile1"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "sku",
+			"EntityName": "SamsungMobile11"
+		}
+	],
+	"SearchEntityChecboxSelection": [
+		{
+			"SenarioID": "RefineSearch_EntityValidation001",
+			"Description": "Validate sku entity present in grid",
+			"Entity Type": "sku",
+			"EntityName": "Footwear001"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "Product",
+			"EntityName": "Footwear001"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "sku",
+			"EntityName": "Duracell Ultra battery_001"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "Sku",
+			"EntityName": "SamsungMobile1"
+		},
+		{
+			"SenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "sku",
+			"EntityName": "SamsungMobile11"
+		}
+	],
+	"EntityDownload": [
+		{
+			"SenarioID": "SingleEntityChecbox1",
+			"Download Selection": "NA"
+		},
+		{
+			"SenarioID": "Top20",
+			"Download Selection": "Select First 20"
+		},
+		{
+			"SenarioID": "Top50",
+			"Download Selection": "select First 50"
+		},
+		{
+			"SenarioID": "SelectAll_Search_Criteria",
+			"Download Selection": "Select All"
+		},
+		{
+			"SenarioID": "Grid_SelectAll",
+			"Download Selection": "Grid All"
+		}
+	],
+	"OpenEntityManage": [
+		{
+			"SenarioID": "OpenEntityMange001",
+			"Description": "Validate sku entity present in grid",
+			"Entity Type": "sku",
+			"EntityName": "Footwear001"
+		}
+	],
+	"Misc": [
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"TabName": "Attributes",
+			"GroupName": "02. Copy",
+			"ACTION": "SET",
+			"Attribute": "R&D Claim Support Link",
+			"Display Type": "textbox",
+			"Value": "Lotus Moisturiser Herbal claim support link updated sucuess"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"TabName": "Attributes",
+			"GroupName": "Department",
+			"ACTION": "SET",
+			"Attribute": "Secondary Description",
+			"Display Type": "textbox",
+			"Value": "Secondary attri value"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"GroupName": "Department",
+			"ACTION": "SET",
+			"Attribute": "Merchant Name",
+			"Display Type": "textbox",
+			"Value": "OnePlus Blue tooth and wifi",
+			"ActionButton": "Save"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"GroupName": "Department",
+			"ACTION": "GET",
+			"Attribute": "Secondary Description",
+			"Display Type": "textbox",
+			"Value": "Secondary attri value"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"GroupName": "Department",
+			"ACTION": "GET",
+			"Attribute": "Merchant Name",
+			"Display Type": "textbox",
+			"Value": "OnePlus Blue tooth and wifi"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"GroupName": "Basic",
+			"ACTION": "SET",
+			"Attribute": "Headline",
+			"Display Type": "textbox",
+			"Value": "California Active"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"GroupName": "Basic",
+			"ACTION": "SET",
+			"Attribute": "Description",
+			"Display Type": "textarea",
+			"Value": "riversand techinoligies violet information",
+			"ActionButton": "Save"
+		}
+	],
+	"Design_eureQa": [
+		{
+			"ScenarioID": "TCo1",
+			"Entity Type": "SKU"
+		},
+		{
+			"ScenarioID": "TCo1",
+			"Entity Type": "Product"
+		},
+		{
+			"ScenarioID": "refineSearch.xlsx"
+		},
+		{
+			"ScenarioID": "ScenarioID",
+			"Description": "Description",
+			"Entity Type": "Entity Type",
+			"undefined": "Reference Toggle"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "TextBox",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "TextArea",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "TextBox Collection",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "Integer",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "Decimal",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "ReferenceList",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001NA",
+			"Description": "Reference Collection",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "Boolean",
+			"Entity Type": "SKU",
+			"undefined": "FALSE"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate001",
+			"Description": "RichText",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "TextBox",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "TextArea",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "TextBox Collection",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "Integer",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "Decimal",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "ReferenceList",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002NA",
+			"Description": "Reference Collection",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "Boolean",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate002",
+			"Description": "RichText",
+			"Entity Type": "SKU",
+			"undefined": "FALSE"
+		},
+		{
+			"ScenarioID": "ImportChannelLevelCreate003",
+			"Description": "Self Check",
+			"Entity Type": "SKU",
+			"undefined": "na"
+		},
+		{
+			"ScenarioID": "entityValidation.xlsx"
+		},
+		{
+			"ScenarioID": "SenarioID",
+			"Description": "Description",
+			"Entity Type": "Entity Type",
+			"undefined": "EntityName"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation001",
+			"Description": "Validate sku entity present in grid",
+			"Entity Type": "sku",
+			"undefined": "Footwear001"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "Product",
+			"undefined": "Footwear001"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "sku",
+			"undefined": "Duracell Ultra battery_001"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "Sku",
+			"undefined": "SamsungMobile1"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "sku",
+			"undefined": "SamsungMobile11"
+		},
+		{
+			"ScenarioID": "SearchEntityChecboxSelection.xlsx"
+		},
+		{
+			"ScenarioID": "SenarioID",
+			"Description": "Description",
+			"Entity Type": "Entity Type",
+			"undefined": "EntityName"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation001",
+			"Description": "Validate sku entity present in grid",
+			"Entity Type": "sku",
+			"undefined": "Footwear001"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "Product",
+			"undefined": "Footwear001"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation001",
+			"Entity Type": "sku",
+			"undefined": "Duracell Ultra battery_001"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "Sku",
+			"undefined": "SamsungMobile1"
+		},
+		{
+			"ScenarioID": "RefineSearch_EntityValidation002",
+			"Entity Type": "sku",
+			"undefined": "SamsungMobile11"
+		},
+		{
+			"ScenarioID": "EnttiyDownload.xlsx"
+		},
+		{
+			"ScenarioID": "SenarioID",
+			"Description": "Description",
+			"Entity Type": "Download Selection"
+		},
+		{
+			"ScenarioID": "SingleEntityChecbox1",
+			"Entity Type": "NA"
+		},
+		{
+			"ScenarioID": "Top20",
+			"Entity Type": "Select First 20"
+		},
+		{
+			"ScenarioID": "Top50",
+			"Entity Type": "select First 50"
+		},
+		{
+			"ScenarioID": "SelectAll_Search_Criteria",
+			"Entity Type": "Select All"
+		},
+		{
+			"ScenarioID": "Grid_SelectAll",
+			"Entity Type": "Grid All"
+		},
+		{
+			"ScenarioID": "OpenEntityManage.xlsx"
+		},
+		{
+			"ScenarioID": "SenarioID",
+			"Description": "Description",
+			"Entity Type": "Entity Type",
+			"undefined": "EntityName"
+		},
+		{
+			"ScenarioID": "OpenEntityMange001",
+			"Description": "Validate sku entity present in grid",
+			"Entity Type": "sku",
+			"undefined": "Footwear001"
+		},
+		{
+			"ScenarioID": "ScenarioID",
+			"Description": "Description",
+			"Entity Type": "TabName",
+			"undefined": "CloseManage"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"Entity Type": "Attributes",
+			"undefined": "Lotus Moisturiser Herbal claim support link updated sucuess"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"Entity Type": "Attributes",
+			"undefined": "Secondary attri value"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"undefined": "Save"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"undefined": "Secondary attri value"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"undefined": "OnePlus Blue tooth and wifi"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"undefined": "California Active"
+		},
+		{
+			"ScenarioID": "EMU_CreateUI_Gloabl_en-US_TextBox_001",
+			"undefined": "Save"
+		}
+	]
+}

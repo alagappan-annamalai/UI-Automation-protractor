@@ -1,0 +1,51 @@
+{
+	"Quick_Actions": [
+		{
+			"Menu Items": "SKU"
+		},
+		{
+			"Menu Items": "Bundle"
+		},
+		{
+			"Menu Items": "Product Group"
+		},
+		{
+			"Menu Items": "Product"
+		}
+	],
+	"SKU_Creation": [
+		{
+			"Attribute Display in UI": "MDM ID",
+			"Corresponding name in WebElement": "mdmid"
+		},
+		{
+			"Attribute Display in UI": "Item Type",
+			"Corresponding name in WebElement": "itemtype"
+		}
+	],
+	"Sheet2": [
+		{
+			"smoke": "YES",
+			"regression": "NO",
+			"undefined": "TC1"
+		},
+		{
+			"smoke": "YES",
+			"regression": "YES",
+			"undefined": "TC2"
+		},
+		{
+			"smoke": "NO",
+			"regression": "YES",
+			"undefined": "TC3"
+		}
+	],
+	"Sheet1": [
+		{
+			"username": "username"
+		},
+		{
+			"undefined": "tc1"
+		}
+	]
+}
