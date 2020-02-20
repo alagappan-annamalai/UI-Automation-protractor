@@ -55,7 +55,7 @@ grunt rsapp_parallel_execution --target="chrome"
 
 {
     "login":{
-        "email": <Riversand Email ID in Double Quotes>,
-        "password": <Riversand Password in Double Quotes>
+        "email": "<Riversand Email ID>",
+        "password": "<Riversand Password>"
     }
 }
