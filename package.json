@@ -18,7 +18,7 @@
     "grunt-protractor-runner": "^5.0.0",
     "load-grunt-tasks": "^4.0.0",
     "time-grunt": "^2.0.0",
-    "xlsx": "0.15.5",
+    "xlsx": "0.17.0",
     "chai": "4.2.0",
     "write-json-file": "4.3.0",
     "convert-excel-to-json": "1.6.1",
